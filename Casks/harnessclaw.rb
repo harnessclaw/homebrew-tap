@@ -1,9 +1,9 @@
 cask "harnessclaw" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.0.17"
-  sha256 arm:   "9d9c4ee40a49f2a315f2fb3fca3053f89f8b7f1bc7ec03bb7f00b3c8590fe684",
-         intel: "6f93101ea19f0a8efc58bd3b50804d4da29d517154216152d454fa4d851902e2"
+  version "0.0.18"
+  sha256 arm:   "4becbb8a64e89db85cc006a852b1f9fd7f8ffc253ed172abaa097c7e783cf0d2",
+         intel: "220da0a3ed7007703a62452c91aac4a0a14b6a689cf53807ce2f49d09d01259a"
 
   url "https://github.com/harnessclaw/harnessclaw/releases/download/v#{version}/HarnessClaw-#{version}-mac-#{arch}.zip",
       verified: "github.com/harnessclaw/harnessclaw/"
